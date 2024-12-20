@@ -8,4 +8,9 @@ router.get('/', function(req, res, next) {
   res.send(200, animation);
 });
 
+
+router.get('/2', function(req, res, next) {
+  res.send(200, animation);
+});
+
 module.exports = router;
